@@ -1,0 +1,35 @@
+# Bases de datos locales
+db.sqlite3
+
+# Archivos de migración de Django (se generan automáticamente)
+**/migrations/
+
+# Configuración de entornos virtuales de Python
+venv/
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos y carpetas de logs
+*.log
+logs/
+*.pot
+
+# Archivos de configuración de IDEs y editores de texto
+.vscode/
+.idea/
+
+# Archivos temporales y de sistema
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Archivos de configuración de seguridad o de entorno (debes crearlos manualmente en producción)
+.env
+
+# Archivos específicos de Git
+.git/
